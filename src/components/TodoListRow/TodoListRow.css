@@ -1,0 +1,27 @@
+.todoListRow {
+  padding-bottom: 10px;
+}
+
+.todoListRow:last-child {
+  padding-bottom: 0px;
+}
+
+.todoItem {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.todoButton {
+  float: left;
+  cursor: pointer;
+}
+
+.deleteItem {
+  float: right;
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.deleteItem:hover {
+  opacity: 0.7;
+}

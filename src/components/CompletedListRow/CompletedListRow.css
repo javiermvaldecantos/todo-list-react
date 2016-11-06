@@ -1,0 +1,27 @@
+.completedListRow {
+  padding-bottom: 10px;
+}
+
+.completedListRow:last-child {
+  padding-bottom: 0px;
+}
+
+.completedItem {
+  text-decoration: line-through;
+  padding-left: 25px;
+}
+
+.completedButton {
+  float: left;
+  cursor: pointer;
+}
+
+.deleteItem {
+  float: right;
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.deleteItem:hover {
+  opacity: 0.7;
+}
